@@ -1,3 +1,5 @@
 <template>
-    <h1>TEst</h1>
+    <a-button>
+        <nuxt-link to="/dashboard">Vào trang</nuxt-link>
+    </a-button>
 </template>
