@@ -14,14 +14,14 @@
                     </nuxt-link>
                 </a-menu-item>
                 <a-menu-item key="2">
-                    <nuxt-link to="/dashboard/profile">
+                    <nuxt-link>
                         <desktop-outlined />
                         <span>Profile</span>
                     </nuxt-link>
                 </a-menu-item>
 
                 <a-menu-item key="3">
-                    <nuxt-link to="/dashboard/settings">
+                    <nuxt-link>
                         <file-outlined />
                         <span>Settings</span>
                     </nuxt-link>

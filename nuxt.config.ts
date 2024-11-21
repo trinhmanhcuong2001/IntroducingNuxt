@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-04-03',
-  devtools: { enabled: true },
-  modules: ['@ant-design-vue/nuxt', '@nuxt/image']
-})
+    compatibilityDate: "2024-04-03",
+    devtools: { enabled: true },
+    modules: ["@ant-design-vue/nuxt", "@nuxt/image"],
+
+    routeRules: {
+        "/": {ssr:true},
+        "/todo/**": { prerender: true },
+    },
+});
